@@ -547,10 +547,10 @@ int main()
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul04/blob/main/output/output-unguide01.png)
+![Screenshot Output Unguided 1_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul04/blob/main/109082500167_Struktur-Data_Modul04/output/output-unguide01.png?raw=true)
 
 ##### Output 1
-![Screenshot Output Unguided 1_2](https://github.com/raysarahma/109082500167_Struktur-Data_Modul04/blob/main/output/output-unguide01(JAM).png)
+![Screenshot Output Unguided 1_2](https://github.com/raysarahma/109082500167_Struktur-Data_Modul04/blob/main/109082500167_Struktur-Data_Modul04/output/output-unguide01(JAM).png?raw=true)
 
 penjelasan unguided 1 : Pada unguided 1, ADT dibuat dalam tiga file. Singlylist.h berisi type dan prototipe fungsi, Singlylist.cpp berisi isi fungsinya, dan main.cpp sebagai driver. CreateList membuat list kosong dengan first = Nil, lalu alokasi membuat elemen baru dengan new dan mengisi info dengan x. Pada insertFirst, elemen baru disambung ke elemen yang tadinya paling depan (P->next = L.first), lalu dijadikan first. printInfo menelusuri list dari first sampai Nil sambil mencetak isinya. Karena semua angka (2, 0, 8, 12, 9) dimasukkan dengan insertFirst, angka yang masuk paling akhir jadi paling depan, makanya outputnya kebalikan dari urutan input, yaitu 9 12 8 0 2. Di modul, pemanggilan di main ditulis createList, tapi C++ membedakan huruf besar dan kecil, jadi saya samakan dengan prototipe di soal, yaitu CreateList.
 
